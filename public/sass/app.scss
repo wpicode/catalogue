@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+.App {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12.0px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  text-align: left;
+
+
+
+
+
+
+	header {
+	  border-bottom:1px solid #ccc; 
+	  text-align: center;
+
+		.App-logo {
+		  /*animation: App-logo-spin infinite 20s linear;*/
+		  display: inline-block;
+		  height: 60px;
+		  margin:0;
+		  float:left; 
+		  margin-right:25px;
+		}
+		h2 {
+		    font-size: 48px;
+		    display: inline-block;
+		    line-height: 73px;
+		    margin-top: 10px;
+		    margin-bottom: 0;
+		    margin-right: 25px;
+
+		    a {
+		    	color:#000;
+		    	text-decoration: none;
+		    }
+		}
+		span {  
+			color: #969696;
+		  font-size: 16.0px;
+		  font-style: normal;
+		  font-stretch: normal;
+		  font-weight: 400;
+		  text-align: left;
+		}
+
+		.menu {
+			margin-top: 35px;
+			cursor: pointer;
+		}
+	} 
+
+	h1 {  
+		color: #4a494a;
+		font-size: 28.0px;
+	  	font-style: normal;
+	  	font-stretch: normal;
+	  	font-weight: 700;
+	  	text-align: left;
+	  	margin: 18px 0 22px 0;
+	}
+
+	.App-intro {
+	  font-size: large;
+	}
+	/*
+	@keyframes App-logo-spin {
+	  from { transform: rotate(0deg); }
+	  to { transform: rotate(360deg); }
+	}
+	*/
+	.breadcrumbs {
+		font-size: 12px;
+		margin-top:10px;
+
+		a {
+			color:#555;
+		}
+	}
+
+	.white-container{ 
+			background: #fff;
+			padding: 10px;
+		  	box-shadow: 0px 0 4px #999;
+		  	margin-bottom: 20px;
+
+		  	.img-container {
+		  		max-height: 187px;
+		  		overflow: hidden;
+		  	
+			  	img {
+			  		width: 100%;
+			  	}
+			}
+
+		  	p {
+		  		margin-top: 11px;
+	    		margin-bottom: 3px;
+	    		margin-left: 15px;
+	    		margin-right: 15px;
+
+		  		a {
+		  			display: inline-block;
+		  			padding:5px;
+		  			margin:5px;
+		  			text-decoration: none;
+		  		}
+				a.like-button {
+					padding-left:35px;    
+					margin-top: 12px;
+					color:#4A494A;
+				    padding-top: 0;
+					background: url('../images/favorite-outline.svg') no-repeat left top;
+				}
+				a.like-button:hover {
+					background: url('../images/favorite.svg') no-repeat left top;
+				}
+
+		  	}
+	}
+
+	a.like-button {
+		padding-left:35px;    
+		margin-top: 12px;
+		color:#4A494A;
+	    padding-top: 0;
+		background: url('../images/favorite-outline.svg') no-repeat left top;
+	}
+	a.like-button:hover {
+		background: url('../images/favorite.svg') no-repeat left top;
+	}
+
+
+	footer {
+		background: #d7d7d7;
+		padding: 10px;
+		a {
+		}
+	}
+
+	.load-more {
+		background: #d7d7d7;
+		display: inline-block;
+		padding: 20px;
+		border-radius: 50%;
+    	margin-bottom: 40px;
+    	margin-top:15px;
+	}
+
+
+	.cat-page {
+
+		.description{
+			padding:20px;
+		}
+
+		img {
+			width: 100%; 
+		}
+
+		h4.subtitle  {
+			font-size:16px;
+			color:#4A4A4A;
+			margin-top:67px;
+		}
+
+		.slider {
+			background: #d7d7d7;
+			padding: 20px;
+			margin: 40px 0 100px 0; 
+
+			h4 {
+				font-weight: 800;
+				font-size: 20px; 
+			}
+			.white-container {
+			}
+		}
+
+	}
+}
+
+
+@media (max-width: 770px) {
+	.App header h2{
+		font-size:24px;
+	}
+}
